@@ -1,0 +1,45 @@
+{
+  "name": "fcc-leaderboard",
+  "version": "1.0.0",
+  "description": "A sortable leaderboard of the top 100 users at FreeCodeCamp.com",
+  "main": "/src/index.js",
+  "scripts": {
+    "build-dev": "webpack --env=dev --progress --colors",
+    "watch-dev": "webpack --env=dev --watch --progress --colors",
+    "build-prod": "webpack --env=prod --progress --colors",
+    "watch-prod": "webpack --env=prod --watch --progress --colors",
+    "dev-server": "webpack-dev-server --env=dev --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuadavidson/fcc-leaderboard.git"
+  },
+  "author": "Joshua Davidson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshuadavidson/fcc-leaderboard/issues"
+  },
+  "homepage": "https://github.com/joshuadavidson/fcc-leaderboard#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.6.1",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "bootstrap": "^3.3.7",
+    "bootstrap-sass": "^3.3.7",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "html-webpack-plugin": "^2.28.0",
+    "jquery": "^3.1.1",
+    "node-sass": "^4.5.0",
+    "postcss-loader": "^1.3.0",
+    "precss": "^1.4.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "sass-loader": "^6.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
