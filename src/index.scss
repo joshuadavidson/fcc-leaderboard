@@ -5,3 +5,59 @@ $bootstrap-sass-asset-helper: true;
 @import '../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
 
 // declare all custom styles after boostrap import to override defaults
+$fccGreen: #006400;
+$lightText: #FFFFFF;
+
+td {
+  vertical-align: middle !important;
+}
+
+th {
+  text-align: center;
+  color: $lightText;
+  background-color: $fccGreen;
+  border-bottom-width: 1px !important;
+}
+
+th {
+  a {
+    &:hover,
+    &:active,
+    &:visited,
+    &:link {
+      color: $lightText;
+      text-decoration: underline;
+    }
+  }
+}
+
+footer {
+  padding-top: 15px;
+}
+
+.jumbotron {
+  background-color: $fccGreen;
+  color: $lightText;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+}
+
+.table {
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+.username-data-cell {
+  text-align: left;
+}
+
+#fcc-logo {
+  height: 20px;
+}
