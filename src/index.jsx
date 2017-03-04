@@ -5,7 +5,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import 'jquery';
-import 'bootstrap';
 
 // import custom components
 import Header from './Header.component.jsx';
